@@ -1,11 +1,12 @@
 # movie-traversal
-Assignment for an Intro to Computing course (__COSC 102__) @ *Colgate University*.
+
+An implementation of the classic 'Six Degrees of Kevin Bacon' traversal problem, written in __Java__.
 
 This program will find the _shortest path_ between two targets, the targets being either a movie or an actor/actress.
 
 The path taken _alternates_ between actors and movies. For example, if the first step taken is an actor/actress, the next step taken would be a movie in which he/she starred in.
 
-Essentially, it is an implementation of the classic 'Six Degrees of Kevin Bacon' traversal problem, written in __Java__.
+Assignment for an Intro to Computing course (COSC 102) @ *Colgate University*.
 
 ## How to use it
 To start the program, you must run the __MovieGraph.java__ file, and specify a __valid source file__ with all movie data inside it (MovieMadness.java is a dependency).
